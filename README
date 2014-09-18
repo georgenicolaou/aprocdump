@@ -1,5 +1,0 @@
-HOW TO COMPILE:
-1. cd /aprocdump
-2. ./path/to/ndk/ndk-build
-
-You can find the executable in folder ./libs/armeabi/
