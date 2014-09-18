@@ -26,9 +26,9 @@ In order to run the application it must be pushed into a running Android device.
 To do that use the following _adb_ commands: 
 ```
 adb push /path/to/aprocdump /data/local
-adb shell chmod +x /data/local/aprocdump
+adb shell chmod 750 /data/local/aprocdump
 adb shell /data/local/aprocdump --help
 ```
 
 ## More info
-View more info at Silensec's Website [here](http://silensec.com/downloads-menu/aprocdump)
+View more info and download binary file at Silensec's Website [here](http://silensec.com/downloads-menu/aprocdump)
