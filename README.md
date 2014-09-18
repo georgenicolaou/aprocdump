@@ -19,11 +19,11 @@ The Nyuki Android Process Dumper (AProcDump) is a user-mode software application
 ## Compiling and Running
 ```
 cd aprocdump
-/path/to/ndk-build .
+/path/to/ndk-build all .
 ```
 
 In order to run the application it must be pushed into a running Android device.
-To do that use the following _adb_ command:
+To do that use the following _adb_ commands: 
 ```
 adb push /path/to/aprocdump /data/local
 adb shell chmod +x /data/local/aprocdump
